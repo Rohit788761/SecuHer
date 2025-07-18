@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698354489051",
+    "firebase_url": "https://secuher-ebaab-default-rtdb.firebaseio.com",
+    "project_id": "secuher-ebaab",
+    "storage_bucket": "secuher-ebaab.appspot.com"
+  },
+  "rules": {
+    "Users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    }
+  },
+"client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698354489051:android:73bf90f3540eb29f1fdefe",
+        "android_client_info": {
+          "package_name": "com.dreamprogramming.secuher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsFPnTj0EDNhasfefuqvpqDbT5jZzZuBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+
+}
