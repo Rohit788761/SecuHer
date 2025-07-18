@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/blue"
+        android:text="PROFILE"
+        android:gravity=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/account_pro"
+        android:drawableRight="@drawable/arrow_right"
+        android:background="@drawable/custom_edittext"
+        app:cornerRadius="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/blue"
+        android:text="LOGOUT"
+        android:gravity=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawablePadding="8dp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/account_pro"
+        android:drawableRight="@drawable/logout_logo"
+        android:background="@drawable/custom_edittext"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>

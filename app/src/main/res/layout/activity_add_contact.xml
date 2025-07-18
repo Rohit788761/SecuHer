@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".Add_contact">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/helpIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Contacts"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:drawablePadding="8dp"
+            android:drawableEnd="@drawable/help_icon"
+            android:clickable="true"
+            android:textColor="@color/blue"
+            />
+
+        <ListView
+            android:id="@+id/contactListView"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scrollbars="vertical"
+            android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_gravity="center"
+            />
+
+      </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnPickContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/add_contact"
+        app:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

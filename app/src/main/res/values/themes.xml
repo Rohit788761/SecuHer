@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme without ActionBar -->
+    <style name="Base.Theme.SecuHer" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Define primary color scheme -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <!-- Main application theme -->
+    <style name="Theme.SecuHer" parent="Base.Theme.SecuHer">
+        <!-- Customize if needed -->
+    </style>
+
+    <!-- Optional Dark Theme (if needed for DayNight support) -->
+    <style name="Base.Theme.SecuHer.Dark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Define dark theme colors -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <!-- NoActionBar Theme (if used elsewhere) -->
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SecuHer</string>
+    <string name="createAcc">"Don't have an account? "<b>Create account</b></string>
+    <string name="login">"Already have an account? "<b>Login Here</b></string>
+    <string name="forgot"><b>Forgot Password?</b></string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_chatbot">ChatBot</string>
+    <string name="title_profile">Profile</string>
+
+</resources>
